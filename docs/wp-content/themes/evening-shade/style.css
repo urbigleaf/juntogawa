@@ -404,7 +404,9 @@ color:#000;
 }
 #respond {
 margin:25px auto 15px;
-display: none;
+}
+#respond form#commentform {
+    display: none;
 }
 div#respond:after {
     content: "visit https://github.com/urbigleaf/juntogawa/ to comment";
