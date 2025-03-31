@@ -1,0 +1,66 @@
+/*   
+Theme Name: juntogawa
+Theme URI: http://urherb.com
+Description: jun maniac
+Author: herb
+Author URI: http://urherb.com
+Tags: two-columns, black, red, dark, right-sidebar, fixed-width
+Version: 1.0
+License: GPL (The core CSS, XHTML and PHP code named and required for Joomla for the Evening Shade template is released under GPL 3: http://www.opensource.org/licenses/gpl-license.php The Original Design graphics and Photoshop source files are copyrighted by herb (the Photoshop files are not released under GPL).
+*/
+
+html, body {
+vertical-align: baseline;
+outline: 0;
+padding: 0;
+margin: 0;
+}
+html {
+height: 100%;}
+body {background: #1a1917;margin-top:87px;}
+#bath{
+margin:auto;
+width: 933px;
+height: 533px;
+background: url('/wp-content/themes/evening-shade/images/juntogawahome.webp') no-repeat 50% top;
+}
+#bloody {
+width: 933px;
+height: 533px;
+background: url('/wp-content/themes/evening-shade/images/juntogawahome1-2.webp') no-repeat 50% top;}
+#mf {margin:auto;width:933px;height:503px;}
+#deadman {
+width: 94px;
+height: 93px;
+top: 252px;
+left: 398px;
+position: relative;}
+#update,#gallery,#fiction,#history,#cooperation,#juntogawa,#guernica,#yapoos {display:block;position: relative;}
+#update{top: 0px;left: 35px;width:172px;height:49px;}
+a#update{background: url('/wp-content/themes/evening-shade/images/update.png') no-repeat 50% 50%;}
+a#update:hover{background: url('/wp-content/themes/evening-shade/images/updateCH.png') no-repeat 50% 50%;}
+#gallery{top: 69px;left: 150px;width:131px;height:44px;}
+a#gallery{background: url('/wp-content/themes/evening-shade/images/gallery.png') no-repeat 50% 50%;}
+a#gallery:hover{background: url('/wp-content/themes/evening-shade/images/galleryCH.png') no-repeat 50% 50%;}
+#fiction{top: -128px;left: 679px;width:113px;height:39px;}
+a#fiction{background: url('/wp-content/themes/evening-shade/images/fiction.png') no-repeat 50% 50%;}
+a#fiction:hover{background: url('/wp-content/themes/evening-shade/images/fictionCH.png') no-repeat 50% 50%;}
+#history{top: 27px;left: 548px;width:114px;height:39px;}
+a#history{background: url('/wp-content/themes/evening-shade/images/history.png') no-repeat 50% 50%;}
+a#history:hover{background: url('/wp-content/themes/evening-shade/images/historyCH.png') no-repeat 50% 50%;}
+#cooperation{top: -61px;left: 711px;width:173px;height:39px;}
+a#cooperation{background: url('/wp-content/themes/evening-shade/images/cooporation.png') no-repeat 50% 50%;}
+a#cooperation:hover{background: url('/wp-content/themes/evening-shade/images/cooporationCH.png') no-repeat 50% 50%;}
+#juntogawa{top: -168px;left: 309px;width:99px;height:21px;}
+a#juntogawa{background: url('/wp-content/themes/evening-shade/images/juntogawa.png') no-repeat 50% 50%;}
+a#juntogawa:hover{background: url('/wp-content/themes/evening-shade/images/juntogawaCH.png') no-repeat 50% 50%;}
+#guernica{top: -187px;left: 456px;width:75px;height:16px;}
+a#guernica{background: url('/wp-content/themes/evening-shade/images/Guernicaf.png') no-repeat 50% 50%;}
+a#guernica:hover{background: url('/wp-content/themes/evening-shade/images/GuernicaCHf.png') no-repeat 50% 50%;}
+#yapoos{top: -197px;left: 579px;width:60px;height:13px;}
+a#yapoos{background: url('/wp-content/themes/evening-shade/images/yapoos.png') no-repeat 50% 50%;}
+a#yapoos:hover{background: url('/wp-content/themes/evening-shade/images/yapoosCH.png') no-repeat 50% 50%;}
+.gun{cursor:url('/wp-content/themes/evening-shade/images/shoots.cur'),pointer;}
+.nogun{cursor:initial;}
+.hide {opacity: .0; filter: alpha(opacity=0);}
+.nohide {opacity: 1; filter: alpha(opacity=100);}
